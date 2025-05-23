@@ -1,6 +1,6 @@
 /* styles.css */
 .navbar {
-    background-color: #060a49;
+    background-color:rgb(99, 179, 233);
     padding: 1rem;
     border-style:solid;
     color:#0b64b1
@@ -27,4 +27,15 @@ main{
     color:rgb(0, 0, 0);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
+}
+section {
+    background: linear-gradient(135deg, #186f85 0%, #73e1f5 100%);
+    border: 1px solid #8db0d3;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+section:hover{
+background-color:rgb(99, 179, 233); 
+padding: 1rem;
+transform: translateY(-5px); 
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
 }
